@@ -6,10 +6,11 @@ Result json format
 Support only https request to main server.
 
 Example to get all services:
-https://minehost.lt/sms/<user id>/<service id>/services
+https://minehost.lt/sms/user-id/service-id/services
 
 Result:
 
+```
 {
   "services": [
     {
@@ -55,4 +56,4 @@ Result:
   ],
   "count": 2
 }
-
+```
