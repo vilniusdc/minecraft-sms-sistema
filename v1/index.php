@@ -23,7 +23,7 @@ for ($i=0; $i<=count($services['count']); $i++) {
 
 
 function get_data($url) {
-	$minehost="http://beta.minehost.lt/sms/";
+	$minehost="https://minehost.lt/sms/";
 	$url=$minehost.$url;
 	$ch = curl_init();
 	$timeout = 5;
